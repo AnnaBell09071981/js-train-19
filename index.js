@@ -17,8 +17,18 @@
  */
 
 // Створюємо об'єкт Book
+const book = {
+    title: 'Загальна Книга',
+    author: 'Анонім',
+    pages: '0',
+};
+ console.table(book);
+ function read() {
+    return book;
+ }
 
 console.log("Завдання: 1 ==============================");
+console.log(read());
 
 // Виводимо в консоль Об'єкт: Book
 
